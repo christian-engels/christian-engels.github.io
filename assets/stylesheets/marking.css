@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.container #widget {
+    flex-grow: 1;
+}
+
+iframe {
+    height: 100%;
+    width: 100%;
+    border: 0;
+}
